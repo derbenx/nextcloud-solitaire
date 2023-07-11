@@ -17,7 +17,7 @@ function dnm(canv,x,y,sz,nm,c){
  var ctx = canv.getContext("2d");
  ctx.fillStyle = c==1 ? "red" : 'black';
  ctx.font = sz+"px Arial";
- ctx.fillText(Number.isInteger(nm) ? nm:nm.toUpperCase(), x-(sz/2), y+(sz/2)); 
+ ctx.fillText(Number.isInteger(nm) ? nm:nm.toUpperCase(), x-(sz/2), y+(sz/2));
 }
 function dsh(canv,x,y,sz,s){
  var ctx = canv.getContext("2d");
