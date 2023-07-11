@@ -1,7 +1,7 @@
 //https://www.youtube.com/watch?v=TZWI0wqewXc
 
 var game,can,spr,bw,bh;
-var dbug,dbtm;
+//var dbug,dbtm;
 var done=0;
 var mx,my;// current pointer location
 var gx,gy;// grabbed square
@@ -49,6 +49,7 @@ document.getElementById("soltogsetup").onclick = function(){
 document.getElementById("solstart").onclick = function(){
  start();
 }
+/*
 function debug(t){
 // use debug(time-in-ms,arg,arg,etc) to display popup messages
  clearTimeout(dbtm);
@@ -60,7 +61,7 @@ function debug(t){
  }
  dbtm=setTimeout(function(){dbug.remove();dbug='';}, t);
 }
-
+*/
 
 function flowdn(){
  if (flod<1){return;}
@@ -265,7 +266,8 @@ async function clku(evn){
 
  if (aces[0].length>12 && aces[1].length>12 && aces[2].length>12 && aces[3].length>12){
    done=1;
-   debug(99999,'Congrats!','Congrats!','Congrats!','Congrats!','Congrats!')
+   //debug(99999,'Congrats!','Congrats!','Congrats!','Congrats!','Congrats!')
+   dnm(spr,(bw/4),(bh/3),25,"Congrats, Game Over!",1);
   }
 }
 
