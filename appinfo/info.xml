@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>solitaire</id>
+    <name>Solitaire</name>
+    <summary>Solitaire</summary>
+    <description><![CDATA[
+# Solitaire
+A Nextcloud app that lets you play Solitaire.
+    ]]></description>
+    <version>1.0.0</version>
+    <licence>agpl</licence>
+    <author mail="colin@derben.ca" homepage="https://derben.ca">DerBen</author>
+    <namespace>Solitaire</namespace>
+    <category>games</category>
+    <website>https://github.com/derbenx/nextcloud-solitaire</website>
+    <bugs>https://github.com/derbenx/nextcloud-solitaire/issues</bugs>
+    <screenshot>https://raw.githubusercontent.com/derbenx/nextcloud-solitaire/master/Solitaire.png</screenshot>
+    <dependencies>
+        <nextcloud min-version="25" max-version="29"/>
+    </dependencies>
+	    <navigations>
+        <navigation>
+            <name>solitaire</name>
+            <route>solitaire.page.index</route>
+        </navigation>
+    </navigations>
+</info>

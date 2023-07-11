@@ -1,0 +1,6 @@
+#app-content {overflow:hidden;}
+#game{ border:none; margin:auto; width:100%; overflow:hidden; overscroll-behavior:none; }
+#can { border:1px solid lime; margin-left: auto;margin-right:auto; display: block; }
+#spr { border:1px dashed green; transform:translate(0, -100%); }
+#can, #spr { display:block; margin:auto; overflow:hidden; }
+#dbug{top:0;position:fixed;left:0;background:#ccc;border:1px solid red;padding:5px;}
