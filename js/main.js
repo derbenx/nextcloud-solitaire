@@ -47,6 +47,8 @@ document.getElementById("soltogsetup").onclick = function(){
  }
 }
 document.getElementById("solstart").onclick = function(){
+ done=0;
+ aces=[[],[],[],[]]
  start();
 }
 /*
