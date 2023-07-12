@@ -5,12 +5,11 @@
 </center>
 <div id="solsetup" style="display:none">
 <center>
-<br>Description<p>
-Classic solitaire<p>
+<h3>Classic solitaire</h3>
 Works on Chrome and Firefox. No promises on any other browser.
 <h3>choose your options:</h3>
 <!-- <form action='game.php' method='post'> -->
-<table border='2'>
+<table id='tabl'>
 <tr><td><b>Choice</b></td><td><b>Input</b></td><td><b>Meaning</b></td></tr>
 <tr><td>Drawn cards:</td><td>
  <select id='soldrw'>
