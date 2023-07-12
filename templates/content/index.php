@@ -6,7 +6,7 @@
 <div id="solsetup" style="display:none">
 <center>
 <h3>Classic solitaire</h3>
-Works on Chrome and Firefox. No promises on any other browser.
+Works best on Chrome and Firefox.
 <h3>choose your options:</h3>
 <!-- <form action='game.php' method='post'> -->
 <table id='tabl'>
